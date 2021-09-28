@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class MainTask5 { //Ввести число от 1 до 12. Вывести на консоль название месяца, соответствующего данному числу. Осуществить проверку корректности ввода чисел.
     public static void main(String[] args) throws Exception {
-        HashMap<Integer, String> number_month = new HashMap<>();
+        HashMap<Integer, String> number_month = new HashMap<>();  // ключ - значение
         number_month.put(1, "Январь");
         number_month.put(2, "Февраль");
         number_month.put(3, "Март");
